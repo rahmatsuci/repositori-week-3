@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title> Multimedia - HTML 5 </title>
+	</head>
+	<body>
+		<h2> vidio pembelajaran</h2>
+		<p>
+			<button onclick = " durationVid ()" type = "button" > duration</button>
+			<button onclick = " playVid ()" type = "button" > playVid </button>
+			<button onclick = " pauseVid ()" type = "button" > pauseVid </button>
+			<button onclick = " enablCon ()" type = "button" > enablCon </button>
+			<button onclick = " disableCon ()" type = "button" > disableCon </button>
+		</p>
+		<video id= "myVideo" >
+			<source src = "PEMBELAJARAN.mp4.mp4" type = "video/mp4">
+			file not support...
+			</video>
+		</body>
+	<script>
+	var vid = document.getElementByid("myVideo");
+	function durationVid() {
+		alert (vid.myVideo.durationVid);
+	}
+	function playVid() {
+		myVideo.play();
+	}
+	function pauseVid() {
+		myVideo.pause();
+	} 
+	</script>
+	</html>
